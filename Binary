@@ -1,0 +1,20 @@
+Algorithm for converting decimal to binary
+
+The decimal number 5 will be used as an example
+
+Step 1: Divide the decimal number by 2 and record the remainder
+        Ex: 5 / 2 = 2, remainder 1
+        
+Step 2: Write down the remainder as the first digit (from the left) of the binary number
+        Ex: 1 _ _
+        
+        note: I put 3 spaces here because I already know 5 in binary has 3 digits. This is just for the sake of making it clear where to place the digits
+        
+Step 3: Repeat the above steps, dividing the quotient, and recording the remainder until your quotient is 0. Make sure to write down the remainder on the right of the previous digit
+        Ex: 2 / 2 = 1, remainder 0      
+            > 1 0 _
+            
+            1 / 2 = 0, remainder 1
+            > 1 0 1
+            
+            101 is 5 in binary
